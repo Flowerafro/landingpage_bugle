@@ -10,36 +10,57 @@
 
 <body>
     <header>
-        <h1>Daily Bugle</h1>
+        <a href="index.html">The Daily Bugle</a>
     </header>
     <main>
+
         <section id="top-story">
-            <div class="gallery">
-                <img src="image1.jpg" alt="Top Story Image 1" class="gallery-image">
-                <img src="image2.jpg" alt="Top Story Image 2" class="gallery-image" style="display:none;">
-                <img src="image3.jpg" alt="Top Story Image 3" class="gallery-image" style="display:none;">
-                <button class="prev" onclick="prevImage()">&#10094;</button>
-                <button class="next" onclick="nextImage()">&#10095;</button>
+            <div class="story-wrap">
+                <a href="#">
+                    <div id="top-story-image">
+                        <img src="https://placehold.co/800x800" alt="Top Story Image 1" class="story-image">
+                    </div>
+                    <div id="top-story-header">
+                        <h2>XL STORY</h2>
+                        <p> undertittel</p>
+                    </div>
+                </a>
             </div>
-            <h2>Top Story</h2>
-            <p>This is the top story of the day...</p>
+
         </section>
         <section id="other-news">
-            <article>
-                <h3>News Article 1</h3>
-                <p>Details about news article 1...</p>
-            </article>
-            <article>
-                <h3>News Article 2</h3>
-                <p>Details about news article 2...</p>
-            </article>
-            <article>
-                <h3>News Article 3</h3>
-                <p>Details about news article 3...</p>
-            </article>
+            <div class="story-wrap">
+                <a href="#" class="news-box">
+                    <div class="story-image">
+                        <img src="https://placehold.co/200x200" alt="news story image">
+                    </div>
+                    <div class="story-header">
+                        <h3>News Article 1</h3>
+                        <p>Details about news article 1...</p>
+                    </div>
+                </a>
+                <a href="#" class="news-box">
+                    <div class="story-image">
+                        <img src="https://placehold.co/200x200" alt="news story image">
+                    </div>
+                    <div class="story-header">
+                        <h3>News Article 2</h3>
+                        <p>Details about news article 2...</p>
+                    </div>
+                </a>
+                <a href="#" class="news-box">
+                    <div class="story-image">
+                        <img src="https://placehold.co/200x200" alt="news story image">
+                    </div>
+                    <div class="story-header">
+                        <h3>News Article 3</h3>
+                        <p>Details about news article 3...</p>
+                    </div>
+                </a>
+            </div>
         </section>
     </main>
-    <script src="scripts.js"></script>
+    <script src="landing.js"></script>
 </body>
 
 </html>
