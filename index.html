@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We got the news here at the Daily Bugle</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+
+<body>
+    <header>
+        <h1>Daily Bugle</h1>
+    </header>
+    <main>
+        <section id="top-story">
+            <div class="gallery">
+                <img src="image1.jpg" alt="Top Story Image 1" class="gallery-image">
+                <img src="image2.jpg" alt="Top Story Image 2" class="gallery-image" style="display:none;">
+                <img src="image3.jpg" alt="Top Story Image 3" class="gallery-image" style="display:none;">
+                <button class="prev" onclick="prevImage()">&#10094;</button>
+                <button class="next" onclick="nextImage()">&#10095;</button>
+            </div>
+            <h2>Top Story</h2>
+            <p>This is the top story of the day...</p>
+        </section>
+        <section id="other-news">
+            <article>
+                <h3>News Article 1</h3>
+                <p>Details about news article 1...</p>
+            </article>
+            <article>
+                <h3>News Article 2</h3>
+                <p>Details about news article 2...</p>
+            </article>
+            <article>
+                <h3>News Article 3</h3>
+                <p>Details about news article 3...</p>
+            </article>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
