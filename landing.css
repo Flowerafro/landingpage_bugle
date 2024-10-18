@@ -84,7 +84,7 @@ header a {
     object-fit: cover;
 }
 
-/************************** top news story ********* */
+/************************** other news story ********* */
 
 #other-news {
     background-color: #f4f4f4;
@@ -133,6 +133,21 @@ header a {
 
 .story-header p {
     font-size: 1.1em;
+}
+
+/************** FOOTER ************/
+
+footer {
+    margin: 0;
+    padding: 1rem;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: #39454b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*********************************************
@@ -233,7 +248,7 @@ header a {
     }
 
     header a:hover {
-        background: #3b6e5a;
+        background: #39454b;
     }
 
     #top-story {
